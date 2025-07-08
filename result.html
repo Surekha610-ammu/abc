@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: linear-gradient(to right, #f12711, #f5af19);
+            color: white;
+            text-align: center;
+            padding-top: 100px;
+        }
+        .box {
+            background-color: rgba(0,0,0,0.5);
+            display: inline-block;
+            padding: 40px;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>Predicted Calories Burned</h2>
+        <p>For <b>{{ hours }}</b> hours of exercise, you will burn approximately <b>{{ calories }}</b> calories.</p>
+        <a href="/" style="color: white; text-decoration: underline;">Predict Again</a>
+    </div>
+</body>
+</html>
